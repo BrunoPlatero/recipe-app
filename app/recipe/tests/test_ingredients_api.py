@@ -106,7 +106,7 @@ class PrivateIngredientsAPITests(TestCase):
         in2 = Ingredient.objects.create(user=self.user, name='Turkey')
         recipe = Recipe.objects.create(
             title='Apple Crumble',
-            time_minutes = 5,
+            time_minutes=5,
             price=Decimal('4.5'),
             user=self.user
         )
